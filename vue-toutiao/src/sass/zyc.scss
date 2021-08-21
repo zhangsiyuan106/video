@@ -1,0 +1,51 @@
+@charset "UTF-8";
+// 清除不同浏览器样式
+@import "_reset.scss";
+// 基础样式
+@import "_flex.scss";
+// @import "_global.scss";
+@import "_size.scss";
+@import "_margin.scss";
+@import "_padding.scss";
+// 字体样式
+@import "_font.scss";
+// 第三方css
+@import "../assets/iconfont/iconfont.css";
+.side_down-enter,
+.side_down-leave-to {
+    transform: translate3d(0, -100%, 0);
+}
+
+.side_down-enter-to,
+.side_down-leave,
+.side_up-enter-to,
+.side_up-leave {
+    transform: translate3d(0, 0, 0);
+}
+
+.side_down-enter-active,
+.side_down-leave-active,
+.side_up-enter-active,
+.side_up-leave-active {
+    transition: all 0.3s linear;
+}
+
+.side_up-enter,
+.side_up-leave-to {
+    transform: translate3d(0, 108px, 0);
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.fade-enter-to,
+.fade-leave {
+    opacity: 1;
+}
+
+.slide-right-enter,
+.slide-right-leave-to {
+    transform: translate3d(-100%, 0, 0);
+}

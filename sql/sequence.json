@@ -1,0 +1,20 @@
+﻿{
+  "_id" : ObjectId("60f53b86a5fb8be4f7b84878"),
+  "collName" : "MediaFile",
+  "seqId" : 31
+}
+{
+  "_id" : ObjectId("60f55f82a5fb8be4f7b85474"),
+  "collName" : "VideoComment",
+  "seqId" : 49
+}
+{
+  "_id" : ObjectId("60f7794ba5fb8be4f7b87459"),
+  "collName" : "Realcomment",
+  "seqId" : 286
+}
+{
+  "_id" : ObjectId("60f7bcb7a5fb8be4f7b87ce2"),
+  "collName" : "Article",
+  "seqId" : 148
+}
